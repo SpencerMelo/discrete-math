@@ -1,0 +1,13 @@
+4
+U
+1,2,3,4,5
+2,3,4,5,6
+I
+a,b,c,d,e,G
+G,g,h,i,j,k,l
+D
+BANANA,ORANGE,APPLE,PAPAYA
+ORANGE,APPLE
+C
+A,B,C
+1,2,3,4,5
