@@ -158,6 +158,7 @@ Element* cartesianProduct(Element* setA, Element* setB) {
     Element* tempB = setB;
     while (tempB != NULL) {
       char product[64];
+      product[0] = '\0';
       strcat(product, "(");
       strcat(product, setA->value);
       strcat(product, ",");
@@ -171,7 +172,6 @@ Element* cartesianProduct(Element* setA, Element* setB) {
       } else {
         append(&cartesian, product);
       }
-      product[0] = '\0';
       tempB=tempB->next;
     }
     setA=setA->next;
