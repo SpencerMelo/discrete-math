@@ -35,7 +35,7 @@ terceira linhas conterão os elementos dos conjuntos separados por virgulas.
 - There are 3 test case files, you can select each one to run by the name.
 
 ```sh
-gcc -o runnable solution.c && ./runnable "test-cases.txt"
+gcc -o runnable solution.c && ./runnable "test-cases-1.txt"
 ```
 
 ## Valid example:
